@@ -1,0 +1,301 @@
+<!--Developer Build 0.4.2-->
+<html>
+	<head>
+	<meta name='viewport' content='width=320'>
+		<title>3DeSktop</title>
+		<style>
+		 div.nav
+            {
+	       z-index: 4;
+position: absolute;
+width: 314px;
+height: 178px;
+border: 3px solid red;
+background-color: #F2F2F2;
+overflow: auto;
+font-size: 13pt;
+top:28px;
+			}
+					 div.nav2
+            {
+	       z-index: 4;
+position: absolute;
+left:0px;
+width: 314px;
+height: 168px;
+border: 3px solid red;
+background-color: #F2F2F2;
+overflow: auto;
+font-size: 13pt;
+top:240px;
+			}
+ div.search2
+            {
+	       z-index: 4;
+position: absolute;
+left:0px;
+width: 314px;
+height: 50px;
+border: 0px solid red;
+background-color: black;
+overflow: auto;
+font-size: 13pt;
+top:0;px;
+			}
+				body
+			{
+				padding: 0px;
+				margin: 0px;
+			}
+			#bottomscreen
+			{
+				width: 640px;
+				height: 424px;
+				background-color: black;
+				background-image: url("img/bg.bmp");
+			}
+	#bar {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:black;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	border:0px solid indigo;
+	display:inline-block;
+	color:red;
+	font-family:Segoe UI;
+	font-size:13px;
+	font-weight:normal;
+	font-style:normal;
+	height:28px;
+	line-height:0px;
+	width:640px;
+	text-decoration:bold;
+	opacity:1.0;
+	position:absolute;
+    top:0px;
+	left:0px;
+	text-indent:0px;
+	}
+	
+		#bar2 {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:black;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	border:0px solid indigo;
+	display:inline-block;
+	color:red;
+	font-family:Segoe UI;
+	font-size:13px;
+	font-weight:normal;
+	font-style:normal;
+	height:28px;
+	line-height:0px;
+	width:640px;
+	text-decoration:bold;
+	opacity:1.0;
+	position:absolute;
+    top:212px;
+	left:0px;
+	text-indent:0px;}
+	
+	.button {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:black;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:0px solid #dcdcdc;
+	display:inline-block;
+	color:red;
+	font-family:Segoe UI;
+	font-size:13px;
+	font-weight:normal;
+	font-style:normal;
+	height:28px;
+	line-height:0px;
+	width:50px;
+	text-decoration:none;
+	text-align:center;
+	}
+	.button_X {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:#F2F2F2;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:0px solid #dcdcdc;
+	display:inline-block;
+	color:red;
+	font-family:Segoe UI;
+	font-size:13px;
+	font-weight:normal;
+	font-style:normal;
+	height:15px;
+	line-height:0px;
+	width:15px;
+	text-decoration:none;
+	text-align:center;
+	}
+
+	.button_2 {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:black;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:0px solid #dcdcdc;
+	display:inline-block;
+	color:red;
+	font-family:Segoe UI;
+	font-size:13px;
+	font-weight:normal;
+	font-style:normal;
+	height:15px;
+	line-height:2px;
+	width:15px;
+	text-decoration:none;
+	text-align:none;
+	}
+		.search {
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:black;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:0px solid #dcdcdc;
+	display:inline-block;
+	color:red;
+	font-family:Segoe UI;
+	font-size:13px;
+	font-weight:normal;
+	font-style:normal;
+	height:23px;
+	line-height:0px;
+	width:54px;
+	text-decoration:none;
+	text-align:none;
+	}
+			</style>
+		 <script src = "//code.jquery.com/jquery-1.10.2.min.js"></script>	
+		<script>
+		function openpopup(popupid)
+{
+	document.getElementById(popupid).style.visibility = "visible";
+}
+function closepopup(popupid)
+{
+	document.getElementById(popupid).style.visibility = "hidden";
+}
+
+    $(document).ready(function(){
+                $('#buttongo').click(function(){
+                    var GoogleQuery = 'http://' + $('#searchQuery').val(); // find it on Bing
+                    $('#browserFrame').attr('src', GoogleQuery); // set src of iFrame
+                }); // $('#buttongo').click()    
+            }); // $(document).ready()
+</script>
+
+	</head>
+	<div id="bottomscreen">
+	<div id='bar'>
+	<button class="button" style="position:absolute; top:0px; left: 0px;" oNclick="openpopup('menu');">Apps</button>
+<!--Desktop Indication-->
+<p style="position:absolute; left:298px; top:0px;">[1]</p>
+<p style="position:absolute; right:0px; top:0px;">[2]</p>
+</div>
+<div id='bar2'>
+<button class="button" style="position:absolute; top:0px; left: 0px;" oNclick="openpopup('menu2');">Web</button>
+<!--Desktop Indication-->
+<p style="position:absolute; left:298px; top:0px;">[3]</p>
+<p style="position:absolute; right:0px; top:0px;">[4]</p>
+</div>
+<div id='nav'>
+<div id="menu" Style="visibility: hidden;" class="nav">
+<button class="button_X" style="position:absolute; bottom:0px; right: 0px;" oNclick="closepopup('menu');">x</button>
+</div>
+<div id="menu2" Style="visibility: hidden;" class="nav2">
+ <iframe id = "browserFrame" src = ""></iframe>
+        <br>
+<div id="searchbar" Style="visibility: hidden;" class="search2">
+        <input type = "text" id = "searchQuery" placeholder = "Browse the Web..." style="position:absolute; bottom:0px; left:50px; width:205px;">
+        <button id = "buttongo" class="search" style="position:absolute; bottom:0px; right:0px;" >Go</button></center>
+<button class="button_2" style="position:absolute; bottom:0px; left: 0px;" oNclick="closepopup('searchbar');">-</button>
+</div>
+<button class="button_2" style="position:absolute; bottom:0px; left:0px;" oNclick="openpopup('searchbar');">+</button>
+<button class="button_X" style="position:absolute; bottom:0px; right: 0px;" oNclick="closepopup('menu2');">x</button>
+</div>
+</div>
+</html>
